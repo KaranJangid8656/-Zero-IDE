@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ide-bg: #1e1e1e;
+  --color-ide-sidebar: #252526;
+  --color-ide-topbar: #3c3c3c;
+  --color-ide-border: #454545;
+  --color-ide-text: #cccccc;
+  --color-ide-text-active: #ffffff;
+  --color-ide-highlight: #04395e;
+  --color-ide-blue: #007acc;
+  --color-ide-chat: #1e1e1e;
+}
+
+body {
+  background-color: var(--color-ide-bg);
+  color: var(--color-ide-text);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
